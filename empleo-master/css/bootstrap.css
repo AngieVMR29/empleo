@@ -1,0 +1,215 @@
+/* Resetear algunos estilos por defecto del navegador */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para el contenido principal */
+.h1-size {
+  padding-top: 80px;
+  font-family: monospace;
+  text-align: center;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: space-around;
+  max-width: 800px;
+  max-height: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.contenedor img {
+  border-radius: 50%; 
+}
+
+.contenedor a {
+  color: black;
+  font-family: monospace;
+  text-decoration: none;
+}
+
+.contenedor a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para footer de pagina*/
+footer {
+  height: 20%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #0e0d0d;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.list {
+  list-style-type: none;
+}
+
+/*Diseño de perfil*/
+
+.profile {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.profile-name {
+  color: #333;
+  margin: 5px 0;
+}
+
+.profile-description {
+  color: #777;
+  margin: 5px 0;
+}
+
+.profile-skills {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.profile-skills ul {
+  list-style: disc;
+  margin-left: 20px;
+  color: #333;
+}
+
+/*Diseño listados ofertas, vacantes y perfiles*/
+.filtros {
+  position: absolute;
+  top: 100px;
+  right: 80%;
+  max-width: 200px;
+  margin: 20px auto;
+  
+}
+
+.category {
+  color: #888;
+}
+
+#category {
+  padding: 5px;
+}
+
+.vacantes-list {
+  padding-top: 100px;
+  max-width: 800px;
+  margin: 0 auto;
+  display: grid;
+  flex-direction: column;
+  grid-gap: 20px;
+}
+
+.vacantesa, .vacanteso, .vacantess {
+   background-color: white;
+   border-radius: 5px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   padding: 20px;
+   text-align: center;
+}
+
+.vacantesa img, .vacanteso img, .vacantess img {
+  position: absolute;
+  left: 80%;
+  max-width: 100%;
+  height: auto;
+}
+
+.oferta {
+  color: #e74c3c;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+
+.postulante-list {
+  padding-top: 100px;
+  max-width: 800px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.postulantes img {
+  border-radius: 50%;
+  max-width: 80%;
+  height: auto;
+}
+
+.postulantes {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+/*Registro*/
+
+.registration-form {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.registration-form input, .registration-form textarea, .registration-form select {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #6a7528;
+  border-radius: 3px;
+}
+
+button {
+  background-color: #0b0e0f;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
